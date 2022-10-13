@@ -1,0 +1,23 @@
+print("PERCENTAGE CALC AND STREAM ADVISOR")
+N=input("Name:")
+F=input("Father's Name:")
+M=input("Mother's Name:")
+R=int(input("Roll No:"))
+print("Marks-")
+MAT=int(input("Mathematics:"))
+SCI=int(input("Science:"))
+SST=int(input("Social Studies:"))
+ENG=int(input("English:"))
+HIN=int(input("Hindi:"))
+T=(MAT+SCI+SST+ENG+HIN)
+P=(T/500 *100)
+print("TOTAL-")
+print(T)
+print("PERCENTAGE-")
+print(P)
+if (P>70):
+   print("YOU CAN TAKE SCIENCE")
+elif (P<70 and P>50):
+    print("YOU CAN TAKE COMMERCE")
+elif (P>50):
+    print("YOU CAN TAKE ARTS")
